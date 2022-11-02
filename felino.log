@@ -1,0 +1,4 @@
+2022-11-02 17:33:06,485 [main]  INFO com.company.aula8Logging.exe2.model.Leao:48 - O leao Mufasa esta correndo
+2022-11-02 17:33:06,489 [main]  INFO com.company.aula8Logging.exe2.model.Leao:54 - O leao Mufasa é maior que 10 anos!
+2022-11-02 17:33:06,489 [main]  INFO com.company.aula8Logging.exe2.model.Tigre:36 - O tigre esta correndo
+2022-11-02 17:33:06,489 [main] ERROR com.company.aula8Logging.exe2.model.Tigre:45 - A idade nao pode ser negativa
