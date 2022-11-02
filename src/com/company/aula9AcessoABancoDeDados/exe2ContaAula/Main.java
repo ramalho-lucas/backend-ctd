@@ -1,9 +1,8 @@
-package com.company.aulaXTransacoes.exeContaAula;
+package com.company.aula9AcessoABancoDeDados.exe2ContaAula;
 
-import com.company.aulaXTransacoes.exeContaAula.jdbc.ConnectionJDBC;
-import com.company.aulaXTransacoes.exeContaAula.model.Conta;
+import com.company.aula9AcessoABancoDeDados.exe2ContaAula.jdbc.ConnectionJDBC;
+import com.company.aula9AcessoABancoDeDados.exe2ContaAula.model.Conta;
 
-import javax.jws.soap.SOAPBinding;
 import java.sql.Connection;
 import java.sql.SQLException;
 import java.sql.Statement;

@@ -1,4 +1,4 @@
-package com.company.aulaXTransacoes.exeContaAula.model;
+package com.company.aula9AcessoABancoDeDados.exe2ContaAula.model;
 
 public class Conta {
     private int id;

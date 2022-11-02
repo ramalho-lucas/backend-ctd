@@ -1,4 +1,4 @@
-package com.company.aulaXTransacoes.exeContaAula.jdbc;
+package com.company.aula9AcessoABancoDeDados.exe2ContaAula.jdbc;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
