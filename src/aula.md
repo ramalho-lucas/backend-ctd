@@ -180,3 +180,143 @@ nosso aplicativo deve ser atualizado para que os clientes se comuniquem com o pr
   o servico, mais como intermediário poderemos realizar operacoes antes ou depois de direcionar
   a solicitação.
   
+VANTAGENS:
+- O proxy funciona mesmo se o objeto de servico não estiver pronto ou disponível
+- Prinicipio de aberto/fechado: podemos introduzir novos proxies sem alterar o serviço ou clientes.
+  
+DESVANTAGENS:
+- Ao adicionar mais de uma camanda entre o cliente e o servico real, a resposta pode ser atrasada.
+
+## Aula 6
+
+### Flyweight Pattern
+
+É um padrão do tipo estrutural.
+
+PROPOSITO:
+- O padrão compartilha partes do estado do objeto entre vários objetos. Logo, ele abstrai as partes reutilizáveis e,
+  ao inves de criar objetos sempre que necessário, podemos reutilizar objetos criados por outras instancias. Isso torna
+  possível reduzir a capacidade de memoria exigida pela aplicativo.
+  
+SOLUÇÃO:
+- Este padrao possui varios componentes: o cliente é o objeto que aciona a execução. A FlyweightFactory é a fabrica que
+usaremos para criar os objetos flyweight ou objetos leves. O flyweight corresponde aos objetos que queremos 
+  reutilizar para que sejam mais rapidos.
+  
+VANTAGENS:
+- Reduz bastante o peso dos dados no servidor
+
+DESVANTAGEM:
+- Consome um pouco mais de tempo para realizar as buscas.
+
+## Aula 7
+
+### Facade Pattern
+
+Facilita a comunicação e oculta a complexidade de interagir com diferentes módulos
+Por definição, podemos dizer que o padrão facade nos ajuda  a reduzir a complexidade de interagir com um conjunto de 
+subsistemas, atuando como intermediário entre o cliente e os subsistemas, permitindo-nos ter uma entrada única, 
+facilitando a comunicação entre eles.
+
+
+PROPOSITO:
+- Facade (Fachada) é um padrao de design estrutural que fornece uma interface simplificada para uma biblioteca, 
+  framework ou qualquer outro grupo complexo de classes.
+  
+SOLUÇÃO:
+- Dispoe de uma interface que define como o cliente se comunicara com o sistema. Esta classe implementara esta interface
+para receber requisicoes e se encarregara de enviar a requisicao do cliente para a classe correspondente (subsistemas).
+  
+VANTAGENS:
+- O software se torna mais flexivel e facil de expandir
+- Reduzimos o uso de objetos que lidam diretamente com o cliente, tornando o sistema mais facil de usar
+- Reduzimos o acoplamento entre o cliente e os subsisteas, o que nos permite modificar os subsistemas sem afetar o 
+  cliente.
+
+DESVANTAGEM:
+Alto grau de dependencia na interface da fachada(facade)
+
+## Aula 8
+
+### Logging
+
+Para gerar logs, precisamos adicionar um arquivo de configuração. Vamos adiciona-lo na raiz do projeto, ou seja, na pasta
+principal. 
+- Na primeira linha estamos indicando o nive minimo de logging (registro) e os appenders que vamos usar. 
+- A segunda linha é usada para configurar em que nivel os avisos comecarao a ser exibidos pelo console e armazenados 
+no arquivo
+- E, com a terceira linha, evitamos que os appenders herdem a configuração de seus appenders pais, se houver algum.
+
+Configuracao para imprimir mensagens por console
+- Na primeira linha indicamos que tipo de logger será, referindo-se a classe que ira imprimir as mensagens
+- Na segunda linha, dizemos que queremos imprimi-lo diretamente do console.
+- As duas ultimas linhas sao para configurar o template que cada mensagen terá.
+
+![img.png](img.png)
+
+#### LOG4J 
+- é uma Biblioteca Java desenvolvida pela Apacha Software Foundation que permite os desenvolvedores escolher a saida
+e o nivel de granularidade de mensagem ou logs em tempo de execucao. Ou seja, é utilizado para gerar mensagens de logging de 
+forma limpa e simples, permitindo que sejam filtradas por importancia e podendo configurar sua saída por console, arquivo
+dentre outros.
+
+VANTAGENS:
+- Permite ter um registro do que esta acontecendo em nossos sistemas, o que nos possibilita entender melhor os erros
+
+DESVANTAGENS:
+- Os arwuivos as vezes ficam muito grandes e ocupam muita espacos. Por isso devemos escolher bem o tipo de informacao
+que queremos armazenar.
+  
+
+TIPOS DE OBJETOS
+
+A API Log4j segue uma arquitetura em camadas, onde cada uma fornece objetos diferentes para realizar tarefas diferentes.
+Essa estrutura torna o design flexível e fácil de expandir no futuro.
+
+Objetos core: Esses são objetos obrigatórios que suportam a execução do framework.
+
+- Logger object
+- Appender object
+- Layout object
+
+Objetos de suporte: São objetos que podem fornecer recursos adicionais importantes.
+
+- Level object
+- LogManager
+- Filter object
+- Object render
+
+
+NIVEIS DE REGISTRO
+
+Por padrão, o Log4j possui níveis de prioridade para mensagens, entre eles:
+
+- OFF: Este é o nível de detalhe mínimo, ele desabilita todos os logs;
+- FATAL: É usado para mensagens críticas do sistema, geralmente depois de salvar a mensagem, o programa fecha;
+- ERROR: Indica eventos de erro que ainda podem permitir que o aplicativo continue em execução;
+-  WARN: É usado para mensagens de alerta sobre eventos;
+-  INFO: Refere-se a mensagens informativas que destacam o andamento da aplicação em um nível aproximado;
+- DEBUG: Designa os eventos informativos detalhados mais úteis para depurar uma aplicação;
+- TRACE: É usado para exibir mensagens com um nível de detalhe mais alto do que a depuração (debug);
+- ALL: É o nível máximo de detalhe. Habilita todos os logs.
+
+## Aula 9
+
+### Acesso a Banco de Dados
+
+JDBC
+- O JDBC, sigla para Java DataBase Connectivity, é uma API de nível de chamada que disponibiliza diversas interfaces
+  e algumas classes de suporte para conectividade com o banco de dados. A ideia do JDBC é que se possa criar e 
+  implementar suas próprias estruturas de acordo com a sua necessidade. Por se tratar de um conjunto de interfaces,
+  qualquer código executado pelo JDBC  que implemente corretamente sua interface não será afetado no caso de alteração
+  do seu código.
+
+
+## Aula X
+
+### Transações
+
+
+## Aula X
+
+### Padrão DAO
