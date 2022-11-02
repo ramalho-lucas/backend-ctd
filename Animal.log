@@ -1,0 +1,58 @@
+2022-11-02 18:17:38,304 [main]  INFO com.company.aula9AcessoABancoDeDados.exe3.Main:37 - Abrindo conexao com o banco de dados
+2022-11-02 18:17:38,640 [main]  INFO com.company.aula9AcessoABancoDeDados.exe3.Main:40 - Criando tabela no banco de dados
+2022-11-02 18:17:38,712 [main]  INFO com.company.aula9AcessoABancoDeDados.exe3.Main:49 - Fechando conexao com o banco de dados
+2022-11-02 18:21:21,043 [main]  INFO com.company.aula9AcessoABancoDeDados.exe3.Main:37 - Abrindo conexao com o banco de dados
+2022-11-02 18:21:21,289 [main] ERROR com.company.aula9AcessoABancoDeDados.exe3.Main:48 - Erro ao executar SQL
+2022-11-02 18:21:48,702 [main]  INFO com.company.aula9AcessoABancoDeDados.exe3.Main:37 - Abrindo conexao com o banco de dados
+2022-11-02 18:21:49,027 [main]  INFO com.company.aula9AcessoABancoDeDados.exe3.Main:40 - Criando tabela no banco de dados
+2022-11-02 18:21:49,031 [main]  INFO com.company.aula9AcessoABancoDeDados.exe3.Main:43 - Inserindo animais
+2022-11-02 18:21:49,036 [main] ERROR com.company.aula9AcessoABancoDeDados.exe3.Main:48 - Erro ao executar SQL
+2022-11-02 18:21:49,036 [main]  INFO com.company.aula9AcessoABancoDeDados.exe3.Main:52 - Fechando conexao com o banco de dados
+2022-11-02 18:23:55,402 [main]  INFO com.company.aula9AcessoABancoDeDados.exe3.Main:37 - Abrindo conexao com o banco de dados
+2022-11-02 18:23:55,736 [main]  INFO com.company.aula9AcessoABancoDeDados.exe3.Main:40 - Criando tabela no banco de dados
+2022-11-02 18:23:55,740 [main]  INFO com.company.aula9AcessoABancoDeDados.exe3.Main:43 - Inserindo animais
+2022-11-02 18:23:55,744 [main] ERROR com.company.aula9AcessoABancoDeDados.exe3.Main:56 - Erro ao executar SQL
+2022-11-02 18:23:55,744 [main]  INFO com.company.aula9AcessoABancoDeDados.exe3.Main:60 - Fechando conexao com o banco de dados
+2022-11-02 18:24:55,185 [main]  INFO com.company.aula9AcessoABancoDeDados.exe3.Main:37 - Abrindo conexao com o banco de dados
+2022-11-02 18:24:55,623 [main]  INFO com.company.aula9AcessoABancoDeDados.exe3.Main:40 - Criando tabela no banco de dados
+2022-11-02 18:24:55,629 [main]  INFO com.company.aula9AcessoABancoDeDados.exe3.Main:43 - Inserindo animais 1
+2022-11-02 18:24:55,634 [main] ERROR com.company.aula9AcessoABancoDeDados.exe3.Main:58 - Erro ao executar SQL
+2022-11-02 18:24:55,634 [main]  INFO com.company.aula9AcessoABancoDeDados.exe3.Main:62 - Fechando conexao com o banco de dados
+2022-11-02 18:31:20,788 [main]  INFO com.company.aula9AcessoABancoDeDados.exe3.Main:34 - Abrindo conexao com o banco de dados
+2022-11-02 18:31:21,142 [main]  INFO com.company.aula9AcessoABancoDeDados.exe3.Main:37 - Criando tabela no banco de dados
+2022-11-02 18:31:21,148 [main]  INFO com.company.aula9AcessoABancoDeDados.exe3.Main:40 - Inserindo animais 1
+2022-11-02 18:31:21,153 [main] ERROR com.company.aula9AcessoABancoDeDados.exe3.Main:56 - Erro ao executar SQL
+2022-11-02 18:31:21,153 [main]  INFO com.company.aula9AcessoABancoDeDados.exe3.Main:60 - Fechando conexao com o banco de dados
+2022-11-02 18:31:54,731 [main]  INFO com.company.aula9AcessoABancoDeDados.exe3.Main:34 - Abrindo conexao com o banco de dados
+2022-11-02 18:31:55,089 [main]  INFO com.company.aula9AcessoABancoDeDados.exe3.Main:37 - Criando tabela no banco de dados
+2022-11-02 18:31:55,092 [main]  INFO com.company.aula9AcessoABancoDeDados.exe3.Main:40 - Inserindo animais 1
+2022-11-02 18:31:55,097 [main] ERROR com.company.aula9AcessoABancoDeDados.exe3.Main:56 - Erro ao executar SQL
+2022-11-02 18:31:55,097 [main]  INFO com.company.aula9AcessoABancoDeDados.exe3.Main:60 - Fechando conexao com o banco de dados
+2022-11-02 18:31:57,925 [main]  INFO com.company.aula9AcessoABancoDeDados.exe3.Main:34 - Abrindo conexao com o banco de dados
+2022-11-02 18:31:58,252 [main]  INFO com.company.aula9AcessoABancoDeDados.exe3.Main:37 - Criando tabela no banco de dados
+2022-11-02 18:31:58,255 [main]  INFO com.company.aula9AcessoABancoDeDados.exe3.Main:40 - Inserindo animais 1
+2022-11-02 18:31:58,260 [main] ERROR com.company.aula9AcessoABancoDeDados.exe3.Main:56 - Erro ao executar SQL
+2022-11-02 18:31:58,260 [main]  INFO com.company.aula9AcessoABancoDeDados.exe3.Main:60 - Fechando conexao com o banco de dados
+2022-11-02 18:32:57,879 [main]  INFO com.company.aula9AcessoABancoDeDados.exe3.Main:34 - Abrindo conexao com o banco de dados
+2022-11-02 18:32:58,210 [main]  INFO com.company.aula9AcessoABancoDeDados.exe3.Main:37 - Criando tabela no banco de dados
+2022-11-02 18:32:58,215 [main]  INFO com.company.aula9AcessoABancoDeDados.exe3.Main:40 - Inserindo animais 1
+2022-11-02 18:32:58,217 [main]  INFO com.company.aula9AcessoABancoDeDados.exe3.Main:42 - Inserindo animais 2
+2022-11-02 18:32:58,217 [main]  INFO com.company.aula9AcessoABancoDeDados.exe3.Main:44 - Inserindo animais 3
+2022-11-02 18:32:58,220 [main] ERROR com.company.aula9AcessoABancoDeDados.exe3.Main:56 - Erro ao executar SQL
+2022-11-02 18:32:58,220 [main]  INFO com.company.aula9AcessoABancoDeDados.exe3.Main:60 - Fechando conexao com o banco de dados
+2022-11-02 18:33:12,981 [main]  INFO com.company.aula9AcessoABancoDeDados.exe3.Main:34 - Abrindo conexao com o banco de dados
+2022-11-02 18:33:13,307 [main]  INFO com.company.aula9AcessoABancoDeDados.exe3.Main:37 - Criando tabela no banco de dados
+2022-11-02 18:33:13,311 [main]  INFO com.company.aula9AcessoABancoDeDados.exe3.Main:40 - Inserindo animais 1
+2022-11-02 18:33:13,313 [main]  INFO com.company.aula9AcessoABancoDeDados.exe3.Main:42 - Inserindo animais 2
+2022-11-02 18:33:13,314 [main]  INFO com.company.aula9AcessoABancoDeDados.exe3.Main:44 - Inserindo animais 3
+2022-11-02 18:33:13,314 [main]  INFO com.company.aula9AcessoABancoDeDados.exe3.Main:47 - Deletando Animal
+2022-11-02 18:33:13,323 [main]  INFO com.company.aula9AcessoABancoDeDados.exe3.Main:50 - Consultando Animal
+2022-11-02 18:33:13,332 [main]  INFO com.company.aula9AcessoABancoDeDados.exe3.Main:60 - Fechando conexao com o banco de dados
+2022-11-02 18:35:20,231 [main]  INFO com.company.aula9AcessoABancoDeDados.exe3.Main:34 - Abrindo conexao com o banco de dados
+2022-11-02 18:35:20,582 [main]  INFO com.company.aula9AcessoABancoDeDados.exe3.Main:37 - Criando tabela no banco de dados
+2022-11-02 18:35:20,586 [main]  INFO com.company.aula9AcessoABancoDeDados.exe3.Main:40 - Inserindo animais 1
+2022-11-02 18:35:20,589 [main]  INFO com.company.aula9AcessoABancoDeDados.exe3.Main:42 - Inserindo animais 2
+2022-11-02 18:35:20,589 [main]  INFO com.company.aula9AcessoABancoDeDados.exe3.Main:44 - Inserindo animais 3
+2022-11-02 18:35:20,590 [main]  WARN com.company.aula9AcessoABancoDeDados.exe3.Main:47 - Deletando um Animal
+2022-11-02 18:35:20,599 [main]  INFO com.company.aula9AcessoABancoDeDados.exe3.Main:50 - Consultando Animal
+2022-11-02 18:35:20,607 [main]  INFO com.company.aula9AcessoABancoDeDados.exe3.Main:60 - Fechando conexao com o banco de dados
