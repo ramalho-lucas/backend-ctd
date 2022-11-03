@@ -25,7 +25,7 @@ public class MedicamentosDaoH2 implements IDao<Medicamento> {
 
     @Override
     public Medicamento salvar(Medicamento medicamento) throws SQLException {
-        String SQLInsert = String.format("INSERT INTO medicamento(nome, laboratiorio,quantidade, preco) VALUES ('%s','%s','%s','%s')",
+        String SQLInsert = String.format("INSERT INTO medicamento(nome, laboratorio,quantidade, preco) VALUES ('%s','%s','%s','%s')",
                 medicamento.getNome(),medicamento.getLaboratorio(),medicamento.getQuantidade(),medicamento.getPreco());
         Connection connection = null;
 

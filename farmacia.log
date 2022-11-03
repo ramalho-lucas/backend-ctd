@@ -1,0 +1,6 @@
+2022-11-03 18:35:34,236 [main]  INFO com.company.aula10PadraoDAO.exe2farmaciaDAO.dao.impl.MedicamentosDaoH2:33 - Abrindo conexao
+2022-11-03 18:35:34,641 [main]  INFO com.company.aula10PadraoDAO.exe2farmaciaDAO.dao.impl.MedicamentosDaoH2:44 - Fechando Conexao
+2022-11-03 18:36:44,677 [main]  INFO com.company.aula10PadraoDAO.exe2farmaciaDAO.dao.impl.MedicamentosDaoH2:33 - Abrindo conexao
+2022-11-03 18:36:45,038 [main]  INFO com.company.aula10PadraoDAO.exe2farmaciaDAO.dao.impl.MedicamentosDaoH2:44 - Fechando Conexao
+2022-11-03 18:37:42,577 [main]  INFO com.company.aula10PadraoDAO.exe2farmaciaDAO.dao.impl.MedicamentosDaoH2:33 - Abrindo conexao
+2022-11-03 18:37:42,979 [main]  INFO com.company.aula10PadraoDAO.exe2farmaciaDAO.dao.impl.MedicamentosDaoH2:44 - Fechando Conexao
