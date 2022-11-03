@@ -7,6 +7,6 @@ import java.sql.SQLException;
 public class ConnectionJDBC {
     public static Connection getConnection() throws ClassNotFoundException, SQLException {
         Class.forName("org.h2.Driver");
-        return DriverManager.getConnection("jdbc:h2:~/conta","sa","");
+        return DriverManager.getConnection("jdbc:h2:~/conta;AUTO_SERVER=TRUE","sa","");
     }
 }

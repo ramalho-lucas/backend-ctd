@@ -44,4 +44,9 @@ public class Conta {
     public void setSaldo(double saldo) {
         this.saldo = saldo;
     }
+
+    public double aumentarSaldo(double valor){
+        this.saldo += valor;
+        return this.saldo;
+    }
 }

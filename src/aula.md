@@ -377,6 +377,16 @@ Se forem executadas parcialmente até o momento em que uma operação falhar, o 
 podem ficar inconsistentes. Nesse caso precisamos de um mecanismo para devolve-lo ao estado anterior,
 podendo desfazer todas as operações realizadas.
 
+Um objeto Connection por padrão executa automaticamente tidas as operacoes no banco de dados. Isso significa
+que toda vez que uma instrução é executada, ele é ferletida no banco de dados e não pode ser desfeita. Por 
+padrão, o modo auto-commit na conexão está habilitado.
+
+Os seguintes metodos na interface de conexão (Connection) são usados para gerenciar transações no banco de dados
+- void setAutoCommit(boolean valor) - para transação setar como false
+- void commit()
+- rollback()
+
+
 
 ## Aula 10
 
