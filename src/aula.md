@@ -415,3 +415,4 @@ CONCLUSAO:
 O padrao DAO nos permite abstrair a logica de negocio de nossa camada de persistencia, tornando o sistema
 muito mais facil de evoluir.
 
+
