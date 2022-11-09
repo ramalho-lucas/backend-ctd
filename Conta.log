@@ -1,0 +1,50 @@
+2022-11-03 17:07:32,911 [main]  INFO com.company.aula9AcessoABancoDeDados.exe2ContaAula.Main:31 - Abrindo conexao com banco de dados
+2022-11-03 17:07:33,248 [main]  INFO com.company.aula9AcessoABancoDeDados.exe2ContaAula.Main:34 - Criando a tabela conta
+2022-11-03 17:07:33,252 [main]  INFO com.company.aula9AcessoABancoDeDados.exe2ContaAula.Main:40 - Fechando conexao com banco de dados
+2022-11-03 17:19:51,710 [main]  INFO com.company.aula9AcessoABancoDeDados.exe2ContaAula.Main:32 - Abrindo conexao com banco de dados
+2022-11-03 17:19:51,947 [main] ERROR com.company.aula9AcessoABancoDeDados.exe2ContaAula.Main:48 - Erro ao executar transação
+2022-11-03 17:19:51,948 [main]  INFO com.company.aula9AcessoABancoDeDados.exe2ContaAula.Main:51 - Fechando conexao com banco de dados
+2022-11-03 17:20:01,873 [main]  INFO com.company.aula9AcessoABancoDeDados.exe2ContaAula.Main:32 - Abrindo conexao com banco de dados
+2022-11-03 17:20:02,230 [main]  INFO com.company.aula9AcessoABancoDeDados.exe2ContaAula.Main:35 - Criando a tabela conta
+2022-11-03 17:20:02,237 [main]  INFO com.company.aula9AcessoABancoDeDados.exe2ContaAula.Main:44 - Inserindo conta do Lucas
+2022-11-03 17:20:02,247 [main]  INFO com.company.aula9AcessoABancoDeDados.exe2ContaAula.Main:51 - Fechando conexao com banco de dados
+2022-11-03 17:29:42,402 [main]  INFO com.company.aula9AcessoABancoDeDados.exe2ContaAula.Main:32 - Abrindo conexao com banco de dados
+2022-11-03 17:29:42,766 [main]  INFO com.company.aula9AcessoABancoDeDados.exe2ContaAula.Main:35 - Criando a tabela conta
+2022-11-03 17:29:42,772 [main]  INFO com.company.aula9AcessoABancoDeDados.exe2ContaAula.Main:44 - Inserindo conta do Lucas
+2022-11-03 17:29:42,782 [main]  WARN com.company.aula9AcessoABancoDeDados.exe2ContaAula.Main:52 - alterando saldo da conta
+2022-11-03 17:29:42,785 [main]  WARN com.company.aula9AcessoABancoDeDados.exe2ContaAula.Main:59 - alterando saldo da conta
+2022-11-03 17:29:42,785 [main] ERROR com.company.aula9AcessoABancoDeDados.exe2ContaAula.Main:65 - Erro ao executar transação
+2022-11-03 17:29:42,785 [main]  WARN com.company.aula9AcessoABancoDeDados.exe2ContaAula.Main:67 - Foi executado um rollback das transações
+2022-11-03 17:29:42,785 [main]  INFO com.company.aula9AcessoABancoDeDados.exe2ContaAula.Main:70 - Fechando conexao com banco de dados
+2022-11-03 17:30:38,221 [main]  INFO com.company.aula9AcessoABancoDeDados.exe2ContaAula.Main:32 - Abrindo conexao com banco de dados
+2022-11-03 17:30:38,570 [main]  INFO com.company.aula9AcessoABancoDeDados.exe2ContaAula.Main:35 - Criando a tabela conta
+2022-11-03 17:30:38,577 [main]  INFO com.company.aula9AcessoABancoDeDados.exe2ContaAula.Main:44 - Inserindo conta do 5555-5
+2022-11-03 17:30:38,585 [main]  WARN com.company.aula9AcessoABancoDeDados.exe2ContaAula.Main:52 - alterando saldo da conta
+2022-11-03 17:30:38,587 [main]  WARN com.company.aula9AcessoABancoDeDados.exe2ContaAula.Main:59 - alterando saldo da conta
+2022-11-03 17:30:38,588 [main] ERROR com.company.aula9AcessoABancoDeDados.exe2ContaAula.Main:65 - Erro ao executar transação
+2022-11-03 17:30:38,588 [main]  WARN com.company.aula9AcessoABancoDeDados.exe2ContaAula.Main:67 - Foi executado um rollback das transações
+2022-11-03 17:30:38,589 [main]  INFO com.company.aula9AcessoABancoDeDados.exe2ContaAula.Main:70 - Fechando conexao com banco de dados
+2022-11-03 17:30:53,457 [main]  INFO com.company.aula9AcessoABancoDeDados.exe2ContaAula.Main:32 - Abrindo conexao com banco de dados
+2022-11-03 17:30:53,797 [main]  INFO com.company.aula9AcessoABancoDeDados.exe2ContaAula.Main:35 - Criando a tabela conta
+2022-11-03 17:30:53,803 [main]  INFO com.company.aula9AcessoABancoDeDados.exe2ContaAula.Main:44 - Inserindo conta do Lucas
+2022-11-03 17:30:53,811 [main]  WARN com.company.aula9AcessoABancoDeDados.exe2ContaAula.Main:52 - alterando saldo da conta
+2022-11-03 17:30:53,812 [main]  WARN com.company.aula9AcessoABancoDeDados.exe2ContaAula.Main:59 - alterando saldo da conta
+2022-11-03 17:30:53,812 [main] ERROR com.company.aula9AcessoABancoDeDados.exe2ContaAula.Main:65 - Erro ao executar transação
+2022-11-03 17:30:53,813 [main]  WARN com.company.aula9AcessoABancoDeDados.exe2ContaAula.Main:67 - Foi executado um rollback das transações
+2022-11-03 17:30:53,813 [main]  INFO com.company.aula9AcessoABancoDeDados.exe2ContaAula.Main:70 - Fechando conexao com banco de dados
+2022-11-03 17:32:44,166 [main]  INFO com.company.aula9AcessoABancoDeDados.exe2ContaAula.Main:32 - Abrindo conexao com banco de dados
+2022-11-03 17:32:44,690 [main]  INFO com.company.aula9AcessoABancoDeDados.exe2ContaAula.Main:35 - Criando a tabela conta
+2022-11-03 17:32:44,693 [main]  INFO com.company.aula9AcessoABancoDeDados.exe2ContaAula.Main:44 - Inserindo conta do Lucas
+2022-11-03 17:32:44,695 [main]  WARN com.company.aula9AcessoABancoDeDados.exe2ContaAula.Main:52 - alterando saldo da conta
+2022-11-03 17:32:44,697 [main]  WARN com.company.aula9AcessoABancoDeDados.exe2ContaAula.Main:59 - alterando saldo da conta
+2022-11-03 17:32:44,697 [main] ERROR com.company.aula9AcessoABancoDeDados.exe2ContaAula.Main:65 - Erro ao executar transação
+2022-11-03 17:32:44,698 [main]  WARN com.company.aula9AcessoABancoDeDados.exe2ContaAula.Main:67 - Foi executado um rollback das transações
+2022-11-03 17:32:44,698 [main]  INFO com.company.aula9AcessoABancoDeDados.exe2ContaAula.Main:70 - Fechando conexao com banco de dados
+2022-11-03 17:33:11,837 [main]  INFO com.company.aula9AcessoABancoDeDados.exe2ContaAula.Main:32 - Abrindo conexao com banco de dados
+2022-11-03 17:33:12,111 [main]  INFO com.company.aula9AcessoABancoDeDados.exe2ContaAula.Main:35 - Criando a tabela conta
+2022-11-03 17:33:12,117 [main]  INFO com.company.aula9AcessoABancoDeDados.exe2ContaAula.Main:44 - Inserindo conta do Lucas
+2022-11-03 17:33:12,121 [main]  WARN com.company.aula9AcessoABancoDeDados.exe2ContaAula.Main:52 - alterando saldo da conta
+2022-11-03 17:33:12,123 [main]  WARN com.company.aula9AcessoABancoDeDados.exe2ContaAula.Main:59 - alterando saldo da conta
+2022-11-03 17:33:12,124 [main] ERROR com.company.aula9AcessoABancoDeDados.exe2ContaAula.Main:65 - Erro ao executar transação
+2022-11-03 17:33:12,126 [main]  WARN com.company.aula9AcessoABancoDeDados.exe2ContaAula.Main:67 - Foi executado um rollback das transações
+2022-11-03 17:33:12,126 [main]  INFO com.company.aula9AcessoABancoDeDados.exe2ContaAula.Main:70 - Fechando conexao com banco de dados
